@@ -1,0 +1,2409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCET Rank Predictor | V-Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <!-- =========================
+         V-GUIDE NAVBAR
+         ========================= -->
+    <header class="vg-navbar">
+        <div class="vg-nav-container">
+
+            <!-- Logo -->
+            <a href="#" class="vg-brand">
+                <div class="vg-logo">V-<span>Guide</span></div>
+                <span class="vg-subtitle">KCET Admission Helper</span>
+            </a>
+
+            <!-- Mobile Menu Toggle -->
+            <button
+                class="vg-hamburger"
+                id="vgHamburger"
+                aria-label="Toggle Navigation"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav>
+                <ul class="vg-nav-menu" id="vgNavMenu">
+                    <li class="vg-nav-item">
+                        <a href="#home" class="vg-nav-link active">Home</a>
+                    </li>
+                    <li class="vg-nav-item">
+                        <a href="#predictor" class="vg-nav-link">Rank Predictor</a>
+                    </li>
+                    <li class="vg-nav-item">
+                        <a href="#colleges" class="vg-nav-link">College Predictor</a>
+                    </li>
+                    <li class="vg-nav-item">
+                        <a href="#cutoffs" class="vg-nav-link">Cutoffs</a>
+                    </li>
+                    <li class="vg-nav-item">
+                        <a href="#option-entry" class="vg-nav-link">Option Entry</a>
+                    </li>
+                    
+                    <li class="vg-nav-item">
+                        <a href="#counselling" class="vg-nav-link">Counselling</a>
+                    </li>
+
+                    <!-- Tools Dropdown -->
+                    <li class="vg-nav-item has-dropdown">
+                        <a href="#" class="vg-nav-link">
+                            Tools <span class="vg-arrow">▼</span>
+                        </a>
+                        <ul class="vg-dropdown-menu">
+                            <li class="vg-dropdown-item"><a href="#rank-vs-marks-section">Rank vs Marks</a></li>
+                            <li class="vg-dropdown-item"><a href="#kcet-college-guide">College Comparison</a></li>
+                            <li class="vg-dropdown-item"><a href="#kcet-branch-guide">Branch Comparison</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Support Dropdown -->
+                    <li class="vg-nav-item has-dropdown">
+                        <a href="#" class="vg-nav-link">
+                            Support <span class="vg-arrow">▼</span>
+                        </a>
+                        <ul class="vg-dropdown-menu">
+                            <li class="vg-dropdown-item"><a href="#help">Help Center</a></li>
+                            <li class="vg-dropdown-item"><a href="#faq-section">FAQs</a></li>
+                            <li class="vg-dropdown-item"><a href="#contact-section">Contact Us</a></li>
+                            <li class="vg-dropdown-item"><a href="#contact-section">Report a Problem</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Store -->
+                    <li class="vg-nav-item">
+                        <a href="#store" class="vg-nav-link">Store</a>
+                    </li>
+
+                    <!-- More Dropdown -->
+                    <li class="vg-nav-item has-dropdown">
+                        <a href="#" class="vg-nav-link">
+                            More <span class="vg-arrow">▼</span>
+                        </a>
+                        <ul class="vg-dropdown-menu">
+                            <li class="vg-dropdown-item"><a href="#about">About V-Guide</a></li>
+                            <li class="vg-dropdown-item"><a href="#articles">Blog / Articles</a></li>
+                            <li class="vg-dropdown-item"><a href="#privacy">Updates</a></li>
+                            <li class="vg-dropdown-item"><a href="#privacy">Privacy Policy</a></li>
+                            <li class="vg-dropdown-item"><a href="#terms">Terms</a></li>
+                            <li class="vg-vision-credits">
+                                Powered by <a href="#last">Vision Studios</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- =========================
+         MAIN CONTENT
+         ========================= -->
+    <main>
+
+        <!-- HOME HERO SECTION -->
+        <section id="home" class="vg-home-section">
+
+            <header class="vg-hero">
+                <div class="vg-hero-content">
+                    <span class="vg-badge">KCET Portal</span>
+                    <h1>Simplify Your KCET Admission Journey</h1>
+                    <p>Your all-in-one companion for rank predictions, cutoffs, college comparisons, and option entry guidance.</p>
+                    
+                    <div class="vg-hero-actions">
+                        <a href="#predictor" class="vg-btn vg-btn-primary">Predict Your Rank</a>
+                        <a href="#cutoffs" class="vg-btn vg-btn-secondary">Explore Cutoffs</a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- NEWS TICKER -->
+            <section class="vg-news-ticker">
+                <span class="vg-ticker-label">Latest Updates:</span>
+                <ul class="vg-ticker-list">
+                    <li>Round 2 data will be filled shortly  </li>
+                    <li>Round 3 final results on 1st week of September</li>
+                </ul>
+            </section>
+
+            <!-- CORE FEATURES GRID -->
+            <section class="vg-features-grid">
+                
+                <article class="vg-feature-card">
+                    <div class="vg-card-icon">🎯</div>
+                    <h3>Rank Predictor</h3>
+                    <p>Estimate your engineering rank accurately using your PCM Board marks and KCET score.</p>
+                    <a href="#predictor" class="vg-card-link">Try Predictor &rarr;</a>
+                </article>
+
+                <article class="vg-feature-card">
+                    <div class="vg-card-icon">🏛️</div>
+                    <h3>College Predictor</h3>
+                    <p>Discover top engineering colleges in Karnataka based on your expected rank and category.</p>
+                    <a href="#colleges" class="vg-card-link">View Colleges &rarr;</a>
+                </article>
+
+                <article class="vg-feature-card">
+                    <div class="vg-card-icon">📊</div>
+                    <h3>Cutoff Analytics</h3>
+                    <p>Browse past years' round-wise KEA cutoffs for CSE, ISE, ECE, and other core branches.</p>
+                    <a href="#cutoffs" class="vg-card-link">Check Cutoffs &rarr;</a>
+                </article>
+
+                <article class="vg-feature-card">
+                    <div class="vg-card-icon">⚙️</div>
+                    <h3>Option Entry Helper</h3>
+                    <p>Organize and prioritize your college option list before submitting it on the official KEA portal.</p>
+                    <a href="#option-entry" class="vg-card-link">Build Option List &rarr;</a>
+                </article>
+
+            </section>
+
+            <!-- QUICK STATS -->
+            <section class="vg-stats">
+                <div class="vg-stat-item">
+                    <h2>300+</h2>
+                    <p>Engineering Colleges</p>
+                </div>
+                <div class="vg-stat-item">
+                    <h2>50+</h2>
+                    <p>Branches Tracked</p>
+                </div>
+                <div class="vg-stat-item">
+                    <h2>100%</h2>
+                    <p>Free to Use</p>
+                </div>
+            </section>
+
+        </section>
+
+        <!-- RANK PREDICTOR WEBPAGE SECTION -->
+        <section id="predictor" class="calculator-section">
+            <div class="calculator-container">
+
+                <div class="predictor-header">
+                    <h2>KCET Engineering Rank Predictor</h2>
+                    <p class="subtitle">Currently optimized for <em>Engineering</em>. <em>More streams</em> may be added as reliable data becomes <em>available</em>.</p>
+                </div>
+
+                <div class="predictor-form-wrapper">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="boardMarks">Board PCM Marks (out of 300):</label>
+                            <input
+                                type="number"
+                                id="boardMarks"
+                                placeholder="e.g. 273"
+                                min="0"
+                                max="300"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="kcetMarks">KCET Marks (out of 180):</label>
+                            <input
+                                type="number"
+                                id="kcetMarks"
+                                placeholder="e.g. 92"
+                                min="0"
+                                max="180"
+                            >
+                        </div>
+                    </div>
+
+                    <button class="vg-btn-submit" onclick="predictKCETRank()">
+                        Calculate Rank Range
+                    </button>
+
+                    <div id="resultBox" class="result-box" style="display: none;">
+                        <h3 id="predictedRank"></h3>
+                        <span id="compositeScore"></span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+       <!--Colleges-->
+       <!--Colleges-->
+       <!--Colleges-->
+        <section id="colleges">
+  <h2>KCET Rank & Eligibility Checker</h2>
+  
+  <div class="filter-controls">
+    <div class="input-group">
+      <!-- Inside your College Eligibility / College Predictor section -->
+<div class="input-group">
+  <label for="collegePredictorRankInput">Your Rank (Auto-filled from Predictor) Click: Check Eligible Colleges below</label>
+  <input type="number" id="collegePredictorRankInput" placeholder="Calculated rank will appear here">
+</div>
+    </div>
+
+    <div class="input-group">
+      <label for="userCategory">Category / Caste:</label>
+      <select id="userCategory">
+        <option value="GM">General Merit </option>
+        <option value="1G">Category 1 </option>
+        <option value="2AG">Category 2A </option>
+        <option value="2BG">Category 2B </option>
+        <option value="3AG">Category 3A </option>
+        <option value="3BG">Category 3B </option>
+      </select>
+    </div>
+
+    <div class="input-group">
+      <label for="branchFilter">Branch (Optional):</label>
+      <select id="branchFilter">
+        <option value="ALL">All Branches</option>
+        <option value="CS">Computer Science (CS)</option>
+        <option value="AIML">AI & Machine Learning (AI)</option>
+        <option value="ECE">Electronics (EC)</option>
+        <option value="CIV">CIVIL (CIV)</option>
+        <option value="IT">Information Technology (IT)</option>
+        <option value="MEC">Mechanical Engineering (MEC)</option>
+      </select>
+    </div>
+
+    <div class="input-group">
+  <label for="roundFilter">Counseling Round:</label>
+  <select id="roundFilter">
+    <option value="Round 1">Round 1</option>
+    <option value="Round 2">Round 2</option>
+    <option value="Round 3">Round 3 (Extended)</option>
+  </select>
+</div>
+
+
+    <button id="searchBtn">Check Eligible Colleges</button>
+  </div>
+
+  <div id="resultsContainer" class="results-grid"></div>
+</section>
+<!-- Colleges Javascript-->
+ <!-- Colleges Javascript-->
+  <!-- Colleges Javascript-->
+   <!-- Colleges Javascript-->
+ <!-- Colleges Javascript-->
+  <!-- Colleges Javascript-->
+   <!-- Colleges Javascript-->
+ <!-- Colleges Javascript-->
+  <!-- Colleges Javascript-->
+<script type="module">
+  import { collegeDatabase } from './college.js';
+
+  const BRANCH_INDEX_MAP = {
+    'AIML': { index: 7,  name: 'AI & Machine Learning' },
+    'CS':   { index: 8,  name: 'Computer Science & Engineering' },
+    'EEE':  { index: 9,  name: 'Electrical & Electronics Engineering' },
+    'ECE':  { index: 10, name: 'Electronics & Communication Engineering' },
+    'MED':  { index: 11, name: 'Medical Electronics' },
+    'CIV':  { index: 12, name: 'Civil Engineering' },
+    'IT':   { index: 13, name: 'Information Technology' },
+    'MEC':  { index: 14, name: 'Mechanical Engineering' }
+  };
+
+  const searchBtn = document.getElementById('searchBtn');
+  const resultsContainer = document.getElementById('resultsContainer');
+
+  if (searchBtn) {
+    searchBtn.addEventListener('click', () => {
+      let rank = null;
+
+      // 1. Check if the user manually entered a rank in the input field
+      const collegeInput = document.getElementById('collegePredictorRankInput');
+      if (collegeInput && collegeInput.value.trim() !== '') {
+        const manualValue = parseInt(collegeInput.value.replace(/,/g, ''), 10);
+        if (!isNaN(manualValue) && manualValue > 0) {
+          rank = manualValue;
+        }
+      }
+
+      // 2. Fallback: If no manual input, extract rank from #predictedRank text
+      if (!rank) {
+        const predictedRankElem = document.getElementById('predictedRank');
+        if (predictedRankElem) {
+          const estimatedRankText = predictedRankElem.textContent || predictedRankElem.innerText;
+          const cleanText = estimatedRankText.replace(/,/g, ''); 
+          const numbers = cleanText.match(/\d+/g);
+          if (numbers) {
+            rank = Math.max(...numbers.map(Number));
+            // Sync input field display
+            if (collegeInput) collegeInput.value = rank;
+          }
+        }
+      }
+
+      // 3. If neither source yielded a valid rank, notify the user
+      if (!rank) {
+        alert("Please enter a valid rank in the input box or calculate your rank first.");
+        return;
+      }
+
+      // 4. Read filter settings
+      const year = document.getElementById('yearFilter')?.value || '2026';
+      const category = document.getElementById('userCategory')?.value || 'GM';
+      const round = document.getElementById('roundFilter')?.value || 'Round 1';
+      const selectedBranch = document.getElementById('branchFilter')?.value || 'ALL';
+
+      // 5. Clear previous results
+      resultsContainer.innerHTML = '';
+      const eligibleMatches = [];
+
+      // 6. Iterate and collect eligible matches
+      collegeDatabase.forEach(row => {
+        const rowYear = String(row[0]);
+        const rowCategory = row[1];
+        const collegeCode = row[2];
+        const collegeName = row[3];
+        const location = row[4];
+        const type = row[5];
+        const rowRound = row[6];
+
+        if (rowYear !== year || rowCategory !== category || rowRound !== round) return;
+
+        Object.keys(BRANCH_INDEX_MAP).forEach(branchCode => {
+          if (selectedBranch !== 'ALL' && selectedBranch !== branchCode) return;
+
+          const branchInfo = BRANCH_INDEX_MAP[branchCode];
+          const cutoff = row[branchInfo.index];
+
+          // Check eligibility condition: rank <= cutoff
+          if (cutoff !== null && cutoff !== undefined && rank <= cutoff) {
+            const rankDiff = cutoff - rank;
+
+            eligibleMatches.push({
+              collegeCode,
+              collegeName,
+              location,
+              type,
+              rowYear,
+              rowRound,
+              branchName: branchInfo.name,
+              branchCode,
+              cutoff,
+              rankDiff
+            });
+          }
+        });
+      });
+
+      // 7. Sort by closest cutoff match (tightest target first)
+      eligibleMatches.sort((a, b) => a.rankDiff - b.rankDiff);
+
+      // 8. Limit output to top 20 close entries
+      const top20Results = eligibleMatches.slice(0, 20);
+
+      // 9. Render cards
+      top20Results.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'result-card eligible';
+        const cleanCollegeName = item.collegeName.replace(/,/g, ', ');
+        card.innerHTML = `
+  <h3 style="word-break: break-word; line-height: 1.3;">
+    ${cleanCollegeName} <span style="color: var(--accent-blue);">(${item.collegeCode})</span>
+  </h3>
+  <p><strong>Year / Round:</strong> ${item.rowYear} | ${item.rowRound}</p>
+  <p><strong>Location / Type:</strong> ${item.location} | ${item.type}</p>
+  <p><strong>Branch:</strong> ${item.branchName} (${item.branchCode})</p>
+  <p><strong>Cutoff Rank (${category}):</strong> ${item.cutoff}</p>
+  <p><strong>Your Rank:</strong> ${rank} <span class="badge status-high">Eligible (+${item.rankDiff} margin)</span></p>
+`;
+        resultsContainer.appendChild(card);
+      });
+
+      // Empty state handler
+      if (top20Results.length === 0) {
+        resultsContainer.innerHTML = `
+          <p class="no-results" style="color: var(--text-muted); text-align: center; padding: 20px;">
+            No eligible colleges found matching rank <strong>${rank}</strong> for ${category} (${round}, ${year}).
+          </p>`;
+      }
+    });
+  }
+</script>
+<!-- ========================================================== -->
+<!-- SINGLE COLLEGE CUTOFF EXPLORER SECTION                     -->
+<!-- ========================================================== -->
+<section id="cutoffs" class="tab-content active">
+  <div class="container">
+    
+    <!-- Section Header -->
+    <div class="section-header">
+      <h2>KCET College Cut-off Explorer</h2>
+      <p>Select a specific college to view and download its complete branch-wise and category-wise cut-off data.</p>
+    </div>
+
+    <!-- Selection & Filter Panel -->
+    <div class="filter-card">
+      <div class="filter-grid">
+        
+        <!-- Search & Select Single College -->
+        <div class="filter-group full-width">
+          <label for="collegeSearchInput">Select / Search College:</label>
+          <input 
+            type="text" 
+            id="collegeSearchInput" 
+            placeholder="Type college name or code (e.g., UVCE or E001)..." 
+            list="collegeListOptions" 
+            autocomplete="off"
+          />
+          <datalist id="collegeListOptions">
+            <!-- Dynamically populated on initialization -->
+          </datalist>
+        </div>
+
+        <!-- Admissions Year Filter -->
+        <div class="filter-group">
+          <label for="yearSelect">Admissions Year:</label>
+          <select id="yearSelect">
+            <option value="2026" selected>2026</option>
+            <option value="2025">2025</option>
+          </select>
+        </div>
+
+        <!-- Counseling Round Filter -->
+        <div class="filter-group">
+          <label for="roundSelect">Counseling Round:</label>
+          <select id="roundSelect">
+            <option value="Round 1" selected>Round 1</option>
+            <option value="Round 2">Round 2</option>
+            <option value="Round 3">Round 3</option>
+          </select>
+        </div>
+
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="filter-actions">
+        <button type="button" id="applyCutoffFilterBtn" class="btn btn-primary">
+          View Cut-offs
+        </button>
+        <button type="button" id="downloadCollegePdfBtn" class="btn btn-secondary" disabled>
+          Download PDF
+        </button>
+      </div>
+    </div>
+
+    <!-- Container for Single Selected College Display -->
+    <div id="cutoffDisplayContainer" class="cutoff-results-grid">
+      <div class="placeholder-notice" style="text-align: center; color: var(--text-muted, #666); padding: 40px 20px;">
+        <p>Please select a college above and click <strong>View Cut-offs</strong> to display its data.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Inline Logic for Data Retrieval, Single-College Isolation & Printing -->
+  <script type="module">
+    import { collegeDatabase, categories } from './college.js';
+
+    const cutoffContainer = document.getElementById('cutoffDisplayContainer');
+    const searchInput = document.getElementById('collegeSearchInput');
+    const yearSelect = document.getElementById('yearSelect');
+    const roundSelect = document.getElementById('roundSelect');
+    const viewBtn = document.getElementById('applyCutoffFilterBtn');
+    const downloadBtn = document.getElementById('downloadCollegePdfBtn');
+    const datalist = document.getElementById('collegeListOptions');
+
+    // Branch index map matching exact flat array structure:
+    // [0: year, 1: category, 2: collegeCode, 3: collegeName, 4: location, 5: type, 6: round, 
+    //  7: AIML, 8: Computer, 9: EEE, 10: ECE, 11: MedicalElectronics, 12: civil, 13: information technology, 14: mechanical]
+    const BRANCHES = [
+      { code: 'AIML', name: 'AI & Machine Learning', index: 7 },
+      { code: 'CS',   name: 'Computer Science & Engineering', index: 8 },
+      { code: 'EEE',  name: 'Electrical & Electronics', index: 9 },
+      { code: 'ECE',  name: 'Electronics & Communication', index: 10 },
+      { code: 'MED',  name: 'Medical Electronics', index: 11 },
+      { code: 'CIV',  name: 'Civil Engineering', index: 12 },
+      { code: 'IT',   name: 'Information Technology', index: 13 },
+      { code: 'MEC',  name: 'Mechanical Engineering', index: 14 }
+    ];
+
+    function formatRank(value) {
+      return (!value || value === 0 || value === "0" || value === "-") ? "N/A" : value;
+    }
+
+    // Populate Datalist with unique colleges
+    function populateCollegeDatalist() {
+      if (!datalist || !collegeDatabase) return;
+      const uniqueColleges = new Map();
+
+      collegeDatabase.forEach(row => {
+        const code = row[2];
+        const name = row[3];
+        if (code && !uniqueColleges.has(code)) {
+          uniqueColleges.set(code, `${code} - ${name}`);
+        }
+      });
+
+      datalist.innerHTML = Array.from(uniqueColleges.values())
+        .map(collegeStr => `<option value="${collegeStr}"></option>`)
+        .join('');
+    }
+
+    // Render Cutoff Card for strictly 1 college
+    function renderSingleCollege(records) {
+      if (!cutoffContainer) return;
+      cutoffContainer.innerHTML = '';
+
+      if (!records || records.length === 0) {
+        cutoffContainer.innerHTML = `
+          <div class="no-results" style="text-align: center; padding: 30px; color: var(--text-muted, #666);">
+            No cutoff records found for the selected college under the specified criteria.
+          </div>`;
+        if (downloadBtn) downloadBtn.disabled = true;
+        return;
+      }
+
+      // Group rows by unique College Code + Year + Round
+      const collegeMap = {};
+
+      records.forEach(row => {
+        const year = row[0];
+        const category = row[1];
+        const collegeCode = row[2];
+        const collegeName = row[3];
+        const location = row[4];
+        const type = row[5];
+        const round = row[6];
+
+        const groupKey = `${collegeCode}_${year}_${round}`;
+
+        if (!collegeMap[groupKey]) {
+          collegeMap[groupKey] = {
+            year: year,
+            code: collegeCode,
+            name: collegeName,
+            location: location,
+            type: type,
+            round: round,
+            categoriesData: {}
+          };
+        }
+
+        collegeMap[groupKey].categoriesData[category] = {};
+        BRANCHES.forEach(branch => {
+          collegeMap[groupKey].categoriesData[category][branch.code] = formatRank(row[branch.index]);
+        });
+      });
+
+      // Render single card
+      Object.values(collegeMap).forEach(college => {
+        const collegeCard = document.createElement('div');
+        collegeCard.className = 'cutoff-card';
+
+        let branchesHTML = '';
+
+        BRANCHES.forEach(branch => {
+          const activeCategories = Object.keys(college.categoriesData);
+          const tableHeader = activeCategories.map(cat => `<th>${cat}</th>`).join('');
+
+          const tableData = activeCategories.map(cat => {
+            const rankVal = college.categoriesData[cat][branch.code];
+            return `<td>${rankVal !== undefined ? rankVal : 'N/A'}</td>`;
+          }).join('');
+
+          branchesHTML += `
+            <div class="branch-cutoff-block">
+              <div class="branch-title">
+                <span>${branch.name}</span>
+                <span class="branch-code-badge">${branch.code}</span>
+              </div>
+              <div class="table-wrapper">
+                <table class="cutoff-table">
+                  <thead>
+                    <tr>${tableHeader}</tr>
+                  </thead>
+                  <tbody>
+                    <tr>${tableData}</tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          `;
+        });
+
+        collegeCard.innerHTML = `
+          <div class="college-header">
+            <div>
+              <h3>${college.name}</h3>
+              <p style="color: var(--text-muted, #666); font-size: 0.85rem; margin-top: 4px;">
+                ${college.location} | ${college.type} | <strong>${college.year}</strong> | <strong style="color: var(--accent-blue, #007bff);">${college.round}</strong>
+              </p>
+            </div>
+            <span class="college-code-badge">${college.code}</span>
+          </div>
+          ${branchesHTML}
+        `;
+
+        cutoffContainer.appendChild(collegeCard);
+      });
+
+      if (downloadBtn) downloadBtn.disabled = false;
+    }
+
+    // Filter and Display Logic
+    function handleSearch() {
+      const searchVal = searchInput ? searchInput.value.toLowerCase().trim() : '';
+      const selectedYear = yearSelect ? yearSelect.value : '2026';
+      const selectedRound = roundSelect ? roundSelect.value : 'Round 1';
+
+      if (!searchVal) {
+        alert("Please select or search for a college first.");
+        return;
+      }
+
+      // Filter matching rows
+      const matches = collegeDatabase.filter(row => {
+        const yearMatch = String(row[0]) === selectedYear;
+        const roundMatch = row[6] === selectedRound;
+        
+        const code = String(row[2]).toLowerCase();
+        const name = String(row[3]).toLowerCase();
+        const combined = `${code} - ${name}`;
+
+        const collegeMatch = code.includes(searchVal) || name.includes(searchVal) || combined.includes(searchVal);
+
+        return yearMatch && roundMatch && collegeMatch;
+      });
+
+      if (matches.length === 0) {
+        renderSingleCollege([]);
+        return;
+      }
+
+      // Enforce single college limit: restrict to the first matched college code
+      const targetCode = matches[0][2];
+      const singleCollegeRecords = matches.filter(row => row[2] === targetCode);
+
+      renderSingleCollege(singleCollegeRecords);
+    }
+
+    // Trigger Print / Download
+    function handleDownload() {
+      const card = cutoffContainer.querySelector('.cutoff-card');
+      if (!card) {
+        alert("No college data available to download.");
+        return;
+      }
+      window.print();
+    }
+
+    // Event Listeners Initialization
+    document.addEventListener("DOMContentLoaded", () => {
+      populateCollegeDatalist();
+
+      if (viewBtn) viewBtn.addEventListener('click', handleSearch);
+      if (downloadBtn) downloadBtn.addEventListener('click', handleDownload);
+    });
+  </script>
+</section>
+<!-- ========================================================== -->
+<!-- DEMO OPTION ENTRY SECTION                                  -->
+<!-- ========================================================== -->
+<section id="option-entry" class="tab-content">
+  <div class="container">
+    
+    <div class="section-header">
+      <h2>KCET Demo Option Entry</h2>
+      <p>Build your preference list in order of priority to simulate KCET seat allocation.</p>
+    </div>
+
+    <!-- Student Details Panel -->
+    <div class="filter-card">
+      <div class="filter-grid">
+        <div class="filter-group">
+          <label for="studentRankInput">Your KCET Rank:</label>
+          <input type="number" id="studentRankInput" placeholder="e.g. 5000" min="1" />
+        </div>
+
+        <div class="filter-group">
+          <label for="studentCategory">Category:</label>
+          <select id="studentCategory">
+            <option value="GM" selected>GM</option>
+            <option value="1G">1G</option>
+            <option value="2AG">2AG</option>
+            <option value="2BG">2BG</option>
+            <option value="3AG">3AG</option>
+            <option value="3BG">3BG</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="studentRound">Counseling Round:</label>
+          <select id="studentRound">
+            <option value="Round 1" selected>Round 1</option>
+            <option value="Round 2">Round 2</option>
+            <option value="Round 3">Round 3</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option Building Panel -->
+    <div class="filter-card">
+      <div class="filter-grid">
+        <div class="filter-group full-width">
+          <label for="optionCollegeSelect">Select College:</label>
+          <input 
+            type="text" 
+            id="optionCollegeSelect" 
+            placeholder="Type college name or code (e.g., UVCE or E001)..." 
+            list="optionEntryDatalist" 
+            autocomplete="off"
+          />
+          <datalist id="optionEntryDatalist"></datalist>
+        </div>
+
+        <div class="filter-group">
+          <label for="optionBranchSelect">Select Branch:</label>
+          <select id="optionBranchSelect">
+            <option value="CS">Computer Science & Engineering (CS)</option>
+            <option value="AIML">AI & Machine Learning (AIML)</option>
+            <option value="ECE">Electronics & Communication (ECE)</option>
+            <option value="EEE">Electrical & Electronics (EEE)</option>
+            <option value="IT">Information Technology (IT)</option>
+            <option value="MED">Medical Electronics (MED)</option>
+            <option value="CIV">Civil Engineering (CIV)</option>
+            <option value="MEC">Mechanical Engineering (MEC)</option>
+          </select>
+        </div>
+
+        <div class="filter-group" style="justify-content: flex-end;">
+          <button type="button" id="addOptionBtn" class="btn btn-primary" style="height: 45px; margin-top: auto;">
+            + Add to Preference List
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Added Options List -->
+    <div class="filter-card">
+      <h3>Your Priority List</h3>
+      <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1rem;">
+        Options are evaluated strictly in top-to-bottom order.
+      </p>
+
+      <div id="selectedOptionsList" class="options-list-container">
+        <div class="empty-list-notice" style="text-align: center; color: var(--text-muted); padding: 20px;">
+          No options added yet. Select a college and branch above to start building your list.
+        </div>
+      </div>
+
+      <div class="filter-actions" style="margin-top: 1.5rem;">
+        <button type="button" id="runAllocationBtn" class="btn btn-primary">
+          Run Seat Allocation
+        </button>
+      </div>
+    </div>
+
+    <!-- Loading Bar Container (Hidden by default) -->
+    <div id="allocationLoadingContainer" style="display: none; margin: 2rem 0; text-align: center;">
+      <p style="color: var(--text-main); font-weight: 600; margin-bottom: 8px;">
+        Processing mock seat allocation against seat matrix...
+      </p>
+      <div class="progress-bar-track">
+        <div id="allocationProgressBar" class="progress-bar-fill"></div>
+      </div>
+    </div>
+
+    <!-- Allocated Option Display Container -->
+    <div id="allocationResultContainer" style="margin-top: 1.5rem;"></div>
+
+  </div>
+
+
+
+  <!-- Inline Script for Option Entry Logic -->
+  <script type="module">
+    import { collegeDatabase } from './college.js';
+
+    // State array for stored student choice options
+    let selectedChoices = [];
+
+    const rankInput = document.getElementById('studentRankInput');
+    const categorySelect = document.getElementById('studentCategory');
+    const roundSelect = document.getElementById('studentRound');
+    const collegeInput = document.getElementById('optionCollegeSelect');
+    const branchSelect = document.getElementById('optionBranchSelect');
+    const addOptionBtn = document.getElementById('addOptionBtn');
+    const runAllocationBtn = document.getElementById('runAllocationBtn');
+    const optionsListContainer = document.getElementById('selectedOptionsList');
+    const datalist = document.getElementById('optionEntryDatalist');
+    const loadingContainer = document.getElementById('allocationLoadingContainer');
+    const progressBar = document.getElementById('allocationProgressBar');
+    const resultContainer = document.getElementById('allocationResultContainer');
+
+    // Index mappings matching array standard:
+    // [0: year, 1: category, 2: collegeCode, 3: collegeName, 4: location, 5: type, 6: round, 
+    //  7: AIML, 8: Computer, 9: EEE, 10: ECE, 11: MedicalElectronics, 12: civil, 13: information technology, 14: mechanical]
+    const BRANCH_INDEX_MAP = {
+      'AIML': { index: 7,  name: 'AI & Machine Learning' },
+      'CS':   { index: 8,  name: 'Computer Science & Engineering' },
+      'EEE':  { index: 9,  name: 'Electrical & Electronics' },
+      'ECE':  { index: 10, name: 'Electronics & Communication' },
+      'MED':  { index: 11, name: 'Medical Electronics' },
+      'CIV':  { index: 12, name: 'Civil Engineering' },
+      'IT':   { index: 13, name: 'Information Technology' },
+      'MEC':  { index: 14, name: 'Mechanical Engineering' }
+    };
+
+    // Populate datalist with unique college choices
+    function populateDatalist() {
+      if (!datalist || !collegeDatabase) return;
+      const uniqueColleges = new Map();
+
+      collegeDatabase.forEach(row => {
+        const code = row[2];
+        const name = row[3];
+        if (code && !uniqueColleges.has(code)) {
+          uniqueColleges.set(code, `${code} - ${name}`);
+        }
+      });
+
+      datalist.innerHTML = Array.from(uniqueColleges.values())
+        .map(collegeStr => `<option value="${collegeStr}"></option>`)
+        .join('');
+    }
+
+    // Render option list UI
+    function renderOptionsList() {
+      if (selectedChoices.length === 0) {
+        optionsListContainer.innerHTML = `
+          <div class="empty-list-notice" style="text-align: center; color: var(--text-muted); padding: 20px;">
+            No options added yet. Select a college and branch above to start building your list.
+          </div>`;
+        return;
+      }
+
+      optionsListContainer.innerHTML = selectedChoices.map((item, index) => `
+        <div class="option-item-card">
+          <div class="option-item-info">
+            <span class="option-priority-badge">${index + 1}</span>
+            <div>
+              <strong style="color: var(--text-main);">${item.collegeName} (${item.collegeCode})</strong>
+              <p style="color: var(--text-muted); font-size: 0.85rem; margin: 0;">
+                Branch: ${item.branchName} (${item.branchCode})
+              </p>
+            </div>
+          </div>
+          <button type="button" class="btn-delete-option" data-index="${index}">Delete</button>
+        </div>
+      `).join('');
+
+      // Add delete listeners
+      optionsListContainer.querySelectorAll('.btn-delete-option').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const idx = parseInt(e.target.getAttribute('data-index'), 10);
+          selectedChoices.splice(idx, 1);
+          renderOptionsList();
+        });
+      });
+    }
+
+    // Add new option to list
+    addOptionBtn?.addEventListener('click', () => {
+      const val = collegeInput.value.trim();
+      const branchCode = branchSelect.value;
+
+      if (!val) {
+        alert("Please select a college first.");
+        return;
+      }
+
+      // Extract college code
+      const parts = val.split(' - ');
+      const collegeCode = parts[0].trim();
+      
+      // Match college name from database
+      const matchedRow = collegeDatabase.find(r => r[2] === collegeCode);
+      const collegeName = matchedRow ? matchedRow[3] : val;
+
+      // Duplicate check
+      const exists = selectedChoices.some(c => c.collegeCode === collegeCode && c.branchCode === branchCode);
+      if (exists) {
+        alert("This college option and branch combination is already in your preference list.");
+        return;
+      }
+
+      selectedChoices.push({
+        collegeCode: collegeCode,
+        collegeName: collegeName,
+        branchCode: branchCode,
+        branchName: BRANCH_INDEX_MAP[branchCode].name
+      });
+
+      collegeInput.value = '';
+      renderOptionsList();
+    });
+
+    // Execute mock allocation algorithm
+    function evaluateAllocation() {
+      const userRank = parseInt(rankInput.value, 10);
+      const category = categorySelect.value;
+      const round = roundSelect.value;
+
+      if (!userRank || isNaN(userRank)) {
+        alert("Please enter a valid KCET Rank before running allocation.");
+        return null;
+      }
+
+      if (selectedChoices.length === 0) {
+        alert("Please add at least 1 option choice to your priority list.");
+        return null;
+      }
+
+      // Iterate top-down through user choices
+      for (let choice of selectedChoices) {
+        const dbRecord = collegeDatabase.find(row => 
+          row[1] === category && 
+          row[2] === choice.collegeCode && 
+          row[6] === round
+        );
+
+        if (dbRecord) {
+          const branchIdx = BRANCH_INDEX_MAP[choice.branchCode].index;
+          const cutoff = dbRecord[branchIdx];
+
+          // Check rank eligibility condition
+          if (cutoff !== null && cutoff !== undefined && userRank <= cutoff) {
+            return {
+              allocated: true,
+              choice: choice,
+              cutoff: cutoff,
+              collegeName: dbRecord[3],
+              location: dbRecord[4],
+              type: dbRecord[5]
+            };
+          }
+        }
+      }
+
+      return { allocated: false };
+    }
+
+    // Handle allocation execution with timer
+    runAllocationBtn?.addEventListener('click', () => {
+      const result = evaluateAllocation();
+      if (!result) return;
+
+      resultContainer.innerHTML = '';
+      loadingContainer.style.display = 'block';
+      progressBar.style.width = '0%';
+
+      // timer: 1000ms dramatic delay before rendering seat allocation result
+      const DURATION = 60000;
+      const INTERVAL = 20;
+      let elapsedTime = 0;
+
+      const progressInterval = setInterval(() => {
+        elapsedTime += INTERVAL;
+        const progress = Math.min((elapsedTime / DURATION) * 100, 100);
+        progressBar.style.width = `${progress}%`;
+
+        if (elapsedTime >= DURATION) {
+          clearInterval(progressInterval);
+          loadingContainer.style.display = 'none';
+
+          // Render strictly 1 allocated seat result
+          if (result.allocated) {
+            resultContainer.innerHTML = `
+              <div class="cutoff-card" style="border: 2px solid var(--accent-blue);">
+                <div class="college-header">
+                  <div>
+                    <span class="badge status-high" style="background: var(--badge-high-bg); color: var(--badge-high-text); padding: 4px 8px; border-radius: 4px; font-weight: bold;">
+                      SEAT ALLOCATED
+                    </span>
+                    <h3 style="margin-top: 8px;">${result.collegeName}</h3>
+                    <p style="color: var(--text-muted); font-size: 0.85rem;">
+                      ${result.location} | ${result.type} | Category: ${categorySelect.value} | Round: ${roundSelect.value}
+                    </p>
+                  </div>
+                  <span class="college-code-badge">${result.choice.collegeCode}</span>
+                </div>
+                <div class="branch-cutoff-block" style="padding: 16px;">
+                  <p style="margin: 0 0 8px 0;"><strong>Allocated Branch:</strong> ${result.choice.branchName} (${result.choice.branchCode})</p>
+                  <p style="margin: 0 0 8px 0;"><strong>Cut-off Rank:</strong> ${result.cutoff}</p>
+                  <p style="margin: 0; color: var(--accent-blue);"><strong>Your Rank:</strong> ${rankInput.value} (Eligible)</p>
+                </div>
+              </div>`;
+          } else {
+            resultContainer.innerHTML = `
+              <div class="cutoff-card" style="text-align: center; padding: 30px; border: 1px solid var(--card-border);">
+                <h3 style="color: #ef4444; margin-bottom: 8px;">No Seat Allocated</h3>
+                <p style="color: var(--text-muted); margin: 0;">
+                  Your rank (${rankInput.value}) did not meet the cut-off criteria for any of your preferred choices in ${roundSelect.value}. Try adding more options or lower tier colleges.
+                </p>
+              </div>`;
+          }
+        }
+      }, INTERVAL);
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      populateDatalist();
+    });
+  </script>
+</section>
+<!-- ========================================================== -->
+<!-- INTELLIGENT COUNSELING & PREDICTION SECTION                -->
+<!-- ========================================================== -->
+ <!-- ========================================================== -->
+  <!-- ========================================================== -->
+   <!-- ========================================================== -->
+<section id="counselling">
+  <div class="counseling-header">
+    <h2>AI-Driven Counselor</h2>
+    <p>Enter your rank to see predicted options. Our algorithm analyzes historical data to suggest strategic trade-offs between college tiers and branch demand.</p>
+  </div>
+
+  <div class="counseling-controls">
+    <label for="counselingRank">Your KCET Rank:</label>
+    <input type="number" id="counselingRank" placeholder="e.g. 15000" min="1" />
+
+    <label for="counselingCategory">Category:</label>
+    <select id="counselingCategory">
+      <option value="GM" selected>GM</option>
+      <option value="1G">1G</option>
+      <option value="2AG">2AG</option>
+      <option value="2BG">2BG</option>
+      <option value="3AG">3AG</option>
+      <option value="3BG">3BG</option>
+    </select>
+
+    <label for="counselingBaseRound">Current Data Source:</label>
+    <select id="counselingBaseRound">
+      <option value="Round 1" selected>Predict based on Round 1</option>
+      <option value="Round 2">Predict based on Round 2</option>
+    </select>
+
+    <button type="button" id="runPredictionBtn">Predict Top 10 Options</button>
+  </div>
+
+  <div id="counselingResults" class="counseling-results-container">
+    <!-- Predicted results will inject here -->
+  </div>
+
+  <script type="module">
+    import { collegeDatabase } from './college.js';
+
+    // Branch configuration with demand tiers
+    const BRANCH_CONFIG = [
+      { code: 'CS', name: 'Computer Science', index: 8, tier: 1 },
+      { code: 'AIML', name: 'AI & ML', index: 7, tier: 1 },
+      { code: 'IT', name: 'Information Tech', index: 13, tier: 1 },
+      { code: 'ECE', name: 'Electronics & Comm', index: 10, tier: 2 },
+      { code: 'EEE', name: 'Electrical & Electronics', index: 9, tier: 2 },
+      { code: 'MEC', name: 'Mechanical', index: 14, tier: 3 },
+      { code: 'CIV', name: 'Civil', index: 12, tier: 3 },
+      { code: 'MED', name: 'Medical Electronics', index: 11, tier: 3 }
+    ];
+
+    const runBtn = document.getElementById('runPredictionBtn');
+    const resultsContainer = document.getElementById('counselingResults');
+
+    // Step 1: Pre-compute college tiers dynamically based on their average CS cutoffs
+    function calculateCollegeTiers(data) {
+      const collegeStats = {};
+      
+      data.forEach(row => {
+        const code = row[2];
+        const csCutoff = row[8];
+        if (csCutoff) {
+          if (!collegeStats[code]) {
+            collegeStats[code] = { name: row[3], csCutoffs: [] };
+          }
+          collegeStats[code].csCutoffs.push(csCutoff);
+        }
+      });
+
+      const tierList = [];
+      for (const code in collegeStats) {
+        const cutoffs = collegeStats[code].csCutoffs;
+        const avg = cutoffs.reduce((a, b) => a + b, 0) / cutoffs.length;
+        tierList.push({ code, avg });
+      }
+
+      // Sort by toughest cutoff (lowest number)
+      tierList.sort((a, b) => a.avg - b.avg);
+
+      // Distribute into 3 tiers (Top 15%, Next 35%, Bottom 50%)
+      const collegeTiers = {};
+      const total = tierList.length;
+      tierList.forEach((col, index) => {
+        if (index < total * 0.15) collegeTiers[col.code] = 1;
+        else if (index < total * 0.50) collegeTiers[col.code] = 2;
+        else collegeTiers[col.code] = 3;
+      });
+
+      return collegeTiers;
+    }
+
+    runBtn.addEventListener('click', () => {
+      const rank = parseInt(document.getElementById('counselingRank').value, 10);
+      const category = document.getElementById('counselingCategory').value;
+      const baseRound = document.getElementById('counselingBaseRound').value;
+
+      if (!rank || isNaN(rank)) {
+        alert("Enter a valid rank.");
+        return;
+      }
+
+      resultsContainer.innerHTML = '<p>Running prediction algorithm...</p>';
+
+      const collegeTiers = calculateCollegeTiers(collegeDatabase);
+      const candidates = [];
+
+      // Prediction margins: If data is Round 1, assume Round 2/3 will drop by ~8-15%.
+      // If data is Round 2, assume Round 3 will drop by ~5%.
+      const predictionMultiplier = baseRound === 'Round 1' ? 1.15 : 1.05; 
+
+      // Step 2: Filter and evaluate candidates
+      collegeDatabase.forEach(row => {
+        if (row[1] !== category) return; 
+        
+        // We evaluate based on the selected round data to predict future rounds
+        if (row[6] !== baseRound) return;
+
+        const colCode = row[2];
+        const colTier = collegeTiers[colCode] || 3;
+
+        BRANCH_CONFIG.forEach(branch => {
+          const historicalCutoff = row[branch.index];
+          if (!historicalCutoff) return;
+
+          // Check if user is within the predicted future cutoff
+          const predictedCutoff = Math.floor(historicalCutoff * predictionMultiplier);
+          
+          if (rank <= predictedCutoff) {
+            // Calculate a "Desirability Score"
+            // Lower score is better. Prioritizes better colleges and better branches, 
+            // but heavily rewards close rank proximity so students don't get matched with colleges 100k ranks below them.
+            const rankProximity = (predictedCutoff - rank) / predictedCutoff; 
+            const desirabilityScore = (colTier * 10) + (branch.tier * 5) + rankProximity;
+
+            // Generate strategic insight tag
+            let insightTag = "Balanced Option";
+            if (colTier === 1 && branch.tier >= 2) insightTag = "Top College, Lower Branch";
+            if (colTier >= 2 && branch.tier === 1) insightTag = "Premium Branch, Standard College";
+            if (colTier === 1 && branch.tier === 1) insightTag = "Premium Pick (High Competition)";
+            
+            // Is this a stretch/predicted seat? (Rank is higher than historical, but within prediction margin)
+            const isStretch = rank > historicalCutoff;
+
+            candidates.push({
+              collegeCode: colCode,
+              collegeName: row[3],
+              branchName: branch.name,
+              historicalCutoff: historicalCutoff,
+              predictedCutoff: predictedCutoff,
+              insightTag: insightTag,
+              isStretch: isStretch,
+              score: desirabilityScore
+            });
+          }
+        });
+      });
+
+      // Step 3: Sort by desirability and isolate top 10
+      candidates.sort((a, b) => a.score - b.score);
+      
+      // Deduplicate so a college doesn't take up 5 slots with different branches
+      const uniqueColleges = new Set();
+      const top10 = [];
+      
+      for (const cand of candidates) {
+        // Allow a max of 2 branches per college in the top 10 to ensure variety
+        const count = [...uniqueColleges].filter(code => code === cand.collegeCode).length;
+        if (count < 2) {
+          top10.push(cand);
+          uniqueColleges.add(cand.collegeCode);
+        }
+        if (top10.length === 10) break;
+      }
+
+      // Step 4: Render UI
+      if (top10.length === 0) {
+        resultsContainer.innerHTML = '<p>No predictable matches found for this rank and category in the database.</p>';
+        return;
+      }
+
+      let html = `<p>Found ${top10.length} strategic options based on predicted cutoff shifts:</p><ul>`;
+      
+      top10.forEach((item, index) => {
+        const stretchBadge = item.isStretch ? `<strong>[Predicted Drop]</strong>` : `<strong>[Safe]</strong>`;
+        html += `
+          <li style="margin-bottom: 12px; padding: 10px; border: 1px solid #ccc;">
+            <h4>#${index + 1}: ${item.collegeName} (${item.collegeCode})</h4>
+            <p><strong>Branch:</strong> ${item.branchName}</p>
+            <p><strong>Strategic Insight:</strong> ${item.insightTag}</p>
+            <p><strong>Last Cutoff:</strong> ${item.historicalCutoff} | <strong>Predicted Closing:</strong> ~${item.predictedCutoff} ${stretchBadge}</p>
+          </li>
+        `;
+      });
+      html += `</ul>`;
+      
+      resultsContainer.innerHTML = html;
+    });
+  </script>
+</section>
+<!--RANK VS MARKS-->
+<!--RANK VS MARKS-->
+<!--RANK VS MARKS-->
+<!--RANK VS MARKS-->
+<!--RANK VS MARKS-->
+<!--RANK VS MARKS-->
+<section id="rank-vs-marks-section">
+  <div class="section-header">
+    <h2>KCET Marks vs Rank & Composite Score Explained</h2>
+    <p>Understand how KCET calculates engineering ranks using your Board (PCM) and Entrance Exam scores.</p>
+  </div>
+
+  <!-- Composite Score Calculation Formula Cards -->
+  <div class="info-grid">
+    <div class="info-card">
+      <h3>1. The 50:50 Composite Rule</h3>
+      <p>KCET calculates your final engineering rank using a <strong>50:50 weightage system</strong>:</p>
+      <ul>
+        <li><strong>50% Weightage:</strong> Class 12 / PUC Board PCM Marks (out of 300)</li>
+        <li><strong>50% Weightage:</strong> KCET Entrance Examination Marks (out of 180)</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3>2. The Calculation Formula</h3>
+      <p>Your normalized composite score (out of 100) is calculated as follows:</p>
+      <div class="formula-box">
+  <strong>Composite Score</strong> = 
+  [ (<strong>Board PCM</strong> / 300) &times; 50 ] + 
+  [ (<strong>KCET Marks</strong> / 180) &times; 50 ]
+</div>
+      <p class="small-text">Higher composite scores correspond to lower (better) rank numbers.</p>
+    </div>
+  </div>
+
+
+  <!-- 16-Entry Reference Table -->
+  <div class="table-card" style="margin-top: 25px;">
+    <h3>Marks vs Composite Score Reference Matrix</h3>
+    <div class="table-wrapper">
+      <table class="rank-table">
+        <thead>
+          <tr>
+            <th>Board PCM (Out of 300)</th>
+            <th>KCET Marks (Out of 180)</th>
+            <th>Composite Score (Out of 100)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <td>295</td><td>165</td><td>95.00</td></tr>
+          <td>290</td><td>155</td><td>91.39</td></tr>
+          <td>285</td><td>145</td><td>87.78</td></tr>
+          <td>280</td><td>135</td><td>84.17</td></tr>
+          <td>275</td><td>125</td><td>80.56</td></tr>
+          <td>270</td><td>120</td><td>78.33</td></tr>
+          <td>260</td><td>110</td><td>73.89</td></tr>
+          <td>250</td><td>100</td><td>69.44</td></tr>
+          <td>240</td><td>90</td><td>65.00</td></tr>
+          <td>230</td><td>85</td><td>61.94</td></tr>
+          <td>220</td><td>80</td><td>58.89</td></tr>
+          <td>210</td><td>75</td><td>55.83</td></tr>
+          <td>200</td><td>70</td><td>52.78</td></tr>
+          <td>180</td><td>60</td><td>46.67</td></tr>
+          <td>160</td><td>50</td><td>40.56</td></tr>
+          <td>150</td><td>45</td><td>37.50</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+  <!-- Marks vs Rank Reference Table -->
+  <div class="table-card">
+    <h3>Estimated KCET Rank vs Composite Score Reference</h3>
+    <div class="table-wrapper">
+      <table class="rank-table">
+        <thead>
+          <tr>
+            <th>Composite Score (out of 100)</th>
+            <th>Competitiveness</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>90.00 +</td>
+            <td><span class="badge status-top">Top Tier Colleges</span></td>
+          </tr>
+          <tr>
+            <td>80.00 - 89.99</td>
+            <td><span class="badge status-high">High Demand</span></td>
+          </tr>
+          <tr>
+            <td>70.00 - 79.99</td>
+            <td><span class="badge status-moderate">Moderate</span></td>
+          </tr>
+          <tr>
+            <td>60.00 - 69.99</td>
+            <td><span class="badge status-average">Average</span></td>
+          </tr>
+          <tr>
+            <td>50.00 - 59.99</td>
+            <td><span class="badge status-low">May get a seat</span></td>
+          </tr>
+          <tr>
+            <td>Below 50.00</td>
+            <td><span class="badge status-low">Management Admissions</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<!--COLLEGES-->
+<!--COLLEGES-->
+<!--COLLEGES-->
+<!--COLLEGES-->
+<!--COLLEGES-->
+<!--COLLEGES-->
+<section id="kcet-college-guide" aria-labelledby="guide-title" >
+  
+  <header>
+    <h1 id="guide-title">KCET College Selection Guide: Making the Right Choice</h1>
+    <p>A detailed breakdown of key factors every KCET aspirant must evaluate before filling option entry forms.</p>
+  </header>
+
+  <hr>
+
+  <article id="trap-of-older-colleges">
+    <h2>1. The Legacy Trap: Why "Older" Isn't Always Better</h2>
+    <p>
+      Many KCET aspirants blindly prioritize colleges established decades ago assuming age equals quality. 
+      While legacy institutions may offer strong alumni networks, they frequently suffer from outdated infrastructure, 
+      rigid academic environments, and slow adaptations to modern tech stacks.
+    </p>
+    
+    <h3>Common Pitfalls of Older Colleges:</h3>
+    <ul>
+      <li><strong>Outdated Lab Equipment:</strong> Legacy institutions often retain decade-old hardware and machinery that do not align with industry standards.</li>
+      <li><strong>Complacent Placement Cells:</strong> Established brands often rely on legacy recruiters and fail to bring in modern startups or high-paying product firms.</li>
+      <li><strong>Bureaucratic Management:</strong> Administrative processes, syllabus updates, and student initiatives can take significantly longer to get approved.</li>
+    </ul>
+
+    <h3>What Newer Institutions Might Do Better:</h3>
+    <ul>
+      <li>Modern infrastructure with updated computing labs and research facilities.</li>
+      <li>Proactive placement teams actively working to build brand reputation.</li>
+      <li>Higher flexibility in adopting industry-relevant electives and hands-on project work.</li>
+    </ul>
+  </article>
+
+  <hr>
+
+  <article id="autonomous-vs-vtu">
+    <h2>2. Autonomous Status vs. VTU Affiliated Colleges</h2>
+    <p>
+      Understanding the operational freedom of an institution is critical. Autonomous colleges design their own syllabus and conduct internal examinations, 
+      whereas VTU-affiliated non-autonomous colleges follow a centralized curriculum and evaluation system managed directly by the university.
+    </p>
+
+    <h3>Key Differences:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Autonomous College</th>
+          <th>VTU Non-Autonomous College</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Syllabus Updates</td>
+          <td>Updated frequently based on industry trends.</td>
+          <td>Updated on fixed multi-year university cycles.</td>
+        </tr>
+        <tr>
+          <td>Examinations & Grading</td>
+          <td>Conducted internally; faster results and grade evaluations.</td>
+          <td>Conducted centrally by VTU; evaluation process can be slow.</td>
+        </tr>
+        <tr>
+          <td>Academic Flexibility</td>
+          <td>Offers continuous internal evaluation and customizable electives.</td>
+          <td>Strict adherence to rigid university schedules and formats.</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+
+  <hr>
+
+  <article id="location-strategy">
+    <h2>3. Location Strategy: Metro Ecosystem vs. Remote Campuses</h2>
+    <p>
+      A college situated in an industrial or tech hub like Bengaluru provides distinct structural advantages over a college of similar rank located in a remote district.
+    </p>
+
+    <h3>Why Location Matters for Engineering Students:</h3>
+    <ul>
+      <li><strong>Internship Accessibility:</strong> Proximity to tech parks and industrial zones allows students to pursue offline internships during semester breaks or final years.</li>
+      <li><strong>Meetups & Hackathons:</strong> Tier-1 tech hubs host regular developer meetups, hackathons, and conferences that broaden exposure beyond the campus.</li>
+      <li><strong>Off-Campus Hiring Opportunities:</strong> Company walk-ins and off-campus recruitment drives predominantly occur in major metropolitan cities.</li>
+    </ul>
+  </article>
+
+  <hr>
+
+  <article id="placement-transparency">
+    <h2>4. How to Decode College Placement Data</h2>
+    <p>
+      Colleges frequently highlight inflated placement numbers on banners and websites. Aspirants must learn to read beyond the headline figures.
+    </p>
+
+    <h3>Red Flags in Placement Brochures:</h3>
+    <ul>
+      <li><strong>Highest Package Distortions:</strong> Highlighting an international or off-campus package achieved by a single exceptional student.</li>
+      <li><strong>Combining All Stream Stats:</strong> Grouping CS/IS placements with core engineering branches to inflate the overall average package.</li>
+      <li><strong>Mass Recruiters vs. Core Offers:</strong> Counting candidates who received multiple low-paying service sector offers as multiple separate placed candidates.</li>
+    </ul>
+
+    <h3>Metrics You Should Focus On:</h3>
+    <ul>
+      <li><strong>Median Package:</strong> Represents the true middle-point of salaries offered across the batch.</li>
+      <li><strong>Percentage of Eligible Students Placed:</strong> Measures how many students actually met the criteria and got jobs.</li>
+      <li><strong>Recruiter Diversity:</strong> Check if product-based, core engineering, and startup firms visit alongside standard mass recruitment companies.</li>
+    </ul>
+  </article>
+
+  <hr>
+
+  <article id="peer-group-and-culture">
+    <h2>5. Peer Group Quality and Active Student Ecosystems</h2>
+    <p>
+      Your technical growth over four years is heavily influenced by the environment created by your peers and student-run organizations.
+    </p>
+
+    <h3>Elements of a Healthy Campus Culture:</h3>
+    <ul>
+      <li><strong>Technical Clubs:</strong> Active IEEE chapters, coding clubs, robotics labs, and open-source communities.</li>
+      <li><strong>Cut-off Consistency:</strong> Colleges with consistently tight KCET rank cut-offs naturally aggregate highly driven peers.</li>
+      <li><strong>Innovation & Incubation Cells:</strong> Availability of grants, mentorship, and workspace for student startups and research initiatives.</li>
+    </ul>
+  </article>
+
+  <hr>
+
+  <article id="fees-and-hidden-costs">
+    <h2>6. Tuition Fees, Miscellany, and Administrative Policies</h2>
+    <p>
+      While KCET government-quota fees are standardized, individual colleges enforce additional fees and internal rules that impact student life.
+    </p>
+
+    <h3>Things to Verify Before Finalizing Option Entry:</h3>
+    <ul>
+      <li><strong>Skill Development & Miscellaneous Fees:</strong> Mandatory annual college fees charged over and above the standard KCET tuition fee.</li>
+      <li><strong>Strictness & Dress Code Policies:</strong> Varying degrees of campus freedom, ranging from school-like discipline to modern open campuses.</li>
+      <li><strong>Hostel & Mess Facilities:</strong> Availability of on-campus housing, hostel curfews, food quality, and overall living expenses.</li>
+    </ul>
+  </article>
+
+</section>
+<section id="kcet-branch-guide" aria-labelledby="branch-guide-title">
+  
+  <header>
+    <h1 id="branch-guide-title">KCET Branch Selection Strategy: Avoiding Common Pitfalls</h1>
+    <p>A comprehensive guide addressing 10 major mistakes aspirants make during branch selection and how to solve them.</p>
+  </header>
+
+  <hr>
+
+  <article id="branch-pitfalls">
+    <h2>10 Common Branch Selection Mistakes & How to Fix Them</h2>
+
+    <ol class="mistakes-list">
+      <li>
+        <h3>1. Chasing "AI & ML" Solely Due to Market Hype</h3>
+        <p><strong>The Mistake:</strong> Picking specialized artificial intelligence branches under the assumption that standard computer science is becoming obsolete.</p>
+        <p><strong>The Fix:</strong> Understand that foundational Computer Science & Engineering (CSE) covers the core mathematics, data structures, and algorithms required for AI anyway. Standard CSE keeps all tech doors open for higher studies and specialization later.</p>
+      </li>
+
+      <li>
+        <h3>2. Assuming ECE is Just "Softer" Computer Science</h3>
+        <p><strong>The Mistake:</strong> Choosing Electronics & Communication Engineering thinking it involves light coding with basic hardware, then struggling with heavy physics and advanced mathematics.</p>
+        <p><strong>The Fix:</strong> Review the ECE curriculum beforehand. Realize it requires rigorous calculus, signal processing, electromagnetic theory, and semiconductor physics alongside microcontrollers.</p>
+      </li>
+
+      <li>
+        <h3>3. Confusing Hybrid Branches with Pure Software Streams</h3>
+        <p><strong>The Mistake:</strong> Treating Electronics and Computer Engineering (ECM) as identical to Core CSE or pure ECE without checking department allocations.</p>
+        <p><strong>The Fix:</strong> Verify which department controls the hybrid stream in your target college. Ensure you are comfortable balancing hardware design alongside software engineering.</p>
+      </li>
+
+      <li>
+        <h3>4. Treating EEE as an Easy Pathway to IT Jobs</h3>
+        <p><strong>The Mistake:</strong> Taking Electrical & Electronics Engineering purely as a backup to enter software companies while underestimating its academic workload.</p>
+        <p><strong>The Fix:</strong> EEE has one of the tough academic syllabi involving power systems, control systems, and high-voltage machinery. Plan time management carefully if you intend to practice competitive coding alongside EEE coursework.</p>
+      </li>
+
+      <li>
+        <h3>5. Prioritizing Branch over College Tier (or Vice Versa) Rigidly</h3>
+        <p><strong>The Mistake:</strong> Choosing an obscure branch at a top-tier college just for the brand, or taking CSE at an unaccredited low-tier institute.</p>
+        <p><strong>The Fix:</strong> Balance the two. If aiming for software, stick to tech-adjacent branches (CSE, ISE, AI, ECE) at reputable colleges rather than sacrificing the discipline entirely for a brand tag.</p>
+      </li>
+
+      <li>
+        <h3>6. Ignoring Placement Eligibility Rules set by Tech Companies</h3>
+        <p><strong>The Mistake:</strong> Assuming all IT companies allow non-CS/IT branches to sit for campus hiring drives.</p>
+        <p><strong>The Fix:</strong> Check past placement reports. While CSE, ISE, AIML, and ECE are almost universally eligible for tech roles, allied or core mechanical/civil streams face campus eligibility restrictions at certain software firms.</p>
+      </li>
+
+      <li>
+        <h3>7. Selecting Branches Based on Immediate Salary Headlines</h3>
+        <p><strong>The Mistake:</strong> Picking a branch after seeing single high-package news stories without assessing 5-to-10-year career sustainability.</p>
+        <p><strong>The Fix:</strong> Research long-term career growth, higher education scope (GATE/MS), and core industry stability rather than 1-year placement spikes.</p>
+
+      </li>
+
+      <li>
+        <h3>8. Overlooking Math & Theoretical Physics Demands</h3>
+        <p><strong>The Mistake:</strong> Entering engineering disciplines without anticipating the rigorous applied mathematics required across all major branches.</p>
+        <p><strong>The Fix:</strong> Evaluate your comfort level with differential equations, linear algebra, and discrete math before locking in your top choices.</p>
+      </li>
+
+      <li>
+        <h3>9. Copying Option Entry Preferences of Friends or Seniors</h3>
+        <p><strong>The Mistake:</strong> Filling preference order lists using someone else's rank or interest profile.</p>
+        <p><strong>The Fix:</strong> Personalize your option list based on your rank range, academic interests, and financial goals instead of shared option lists.</p>
+      </li>
+
+      <li>
+        <h3>10. Misunderstanding Branch Transfer Policies</h3>
+        <p><strong>The Mistake:</strong> Joining an undesired branch in Year 1 assuming an internal transfer to CSE will be easy in Year 2.</p>
+        <p><strong>The Fix:</strong> Branch upgrades depend strictly on vacant seats and exceptionally high first-year CGPA cutoffs. Never rely on branch changes as a primary strategy.</p>
+      </li>
+    </ol>
+  </article>
+
+  <hr>
+
+  <article id="branch-hierarchy">
+    <h2>Engineering Branch Hierarchy & Full Names</h2>
+    <p>Below is the general preference hierarchy based on student cutoff trends, industry demand, and recruitment overlap, listed from top specialization choices down to foundational core streams.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Priority Rank</th>
+          <th>Branch Acronym</th>
+          <th>Full Form Name</th>
+          <th>Primary Focus Area</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><strong>AI & ML / AI & DS</strong></td>
+          <td>Artificial Intelligence & Machine Learning / Data Science</td>
+          <td>Machine Learning Models, Neural Networks, Advanced Data Analysis</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><strong>CSE</strong></td>
+          <td>Computer Science & Engineering</td>
+          <td>Software Development, Algorithms, Systems & Computing Foundations</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><strong>ISE / IT</strong></td>
+          <td>Information Science & Engineering / Information Technology</td>
+          <td>Applied Software Engineering, Web Technologies & Database Management</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><strong>ECE</strong></td>
+          <td>Electronics & Communication Engineering</td>
+          <td>Embedded Systems, Communication Networks, VLSI & Signal Processing</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><strong>ECM / CMP</strong></td>
+          <td>Electronics and Computer Engineering</td>
+          <td>Hardware-Software Integration, Embedded Coding & Microprocessors</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><strong>EEE</strong></td>
+          <td>Electrical & Electronics Engineering</td>
+          <td>Power Generation, Control Systems, Electrical Machines & Circuits</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><strong>ME / CE</strong></td>
+          <td>Mechanical Engineering / Civil Engineering</td>
+          <td>Core Engineering Design, Thermal Systems, Structural Engineering & Mechanics</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+
+</section>
+<!--HELP-->
+<!--HELP-->
+<!--HELP--><!--HELP-->
+<!--HELP-->
+<!--HELP-->
+<section id="help">
+    <p class="help">HELP CENTRE : Coming Soon</p>
+</section>
+<!--FAQS-->
+<!--FAQS-->
+<!--FAQS-->
+<!--FAQS-->
+<!--FAQS-->
+<!--FAQS-->
+<!--FAQS-->
+<!--FAQS-->
+<!--FAQS-->
+<!--FAQS-->
+<!--FAQS-->
+
+<section class="faq-section">
+  <div class="faq-header">
+    <h2>Frequently Asked Questions</h2>
+    <p>Everything you need to know about KCET ranks, composite scores, and counseling.</p>
+  </div>
+
+  <div class="faq-container">
+    <details class="faq-item">
+      <summary class="faq-question">How is the KCET composite score calculated?</summary>
+      <div class="faq-answer">
+        <p>The composite score is calculated using a 50:50 weightage rule. 50% weightage is taken from your Class 12 / PUC Board PCM marks (out of 300), and 50% weightage is taken from your KCET entrance exam marks (out of 180).</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">What is a good KCET rank for Top Engineering Colleges?</summary>
+      <div class="faq-answer">
+        <p>For top-tier colleges like UVCE, RVCE, BMSCE, or MSRIT (specifically for Computer Science or Information Science branches), a rank under 30,000 in the General Merit (GM) category is generally required.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">How are cut-off ranks determined in KCET counseling?</summary>
+      <div class="faq-answer">
+        <p>Cut-offs depend on several factors, including the total number of applicants, the difficulty level of the exam, available seat matrix per college/branch, and student option entry preferences in each counseling round.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">What does "General Merit (GM)" category mean?</summary>
+      <div class="faq-answer">
+        <p>General Merit is the open competition category. Candidates who do not claim or qualify for specific reservation categories (like 1G, 2AG, 2BG, 3AG, 3BG, SC, ST) are evaluated under the GM pool.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Is the Board PCM score calculated out of 300 or 600?</summary>
+      <div class="faq-answer">
+        <p>For KCET engineering rank calculation, only your core Physics, Chemistry, and Mathematics (PCM) theory/practical combined total (out of 300) is considered for normalization.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Can cut-off ranks change between Round 1 and Round 2?</summary>
+      <div class="faq-answer">
+        <p>Yes. Cut-off numbers generally increase (get higher/easier) in Round 2 and the Extended Round because seats vacated by students moving to AIQ/NEET or other colleges become available to higher-rank holders.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">How accurate is the estimated rank predictor?</summary>
+      <div class="faq-answer">
+        <p>Rank predictions are based on historical normalization curves and previous year trends. While highly accurate for setting realistic college expectations, final official ranks depend on KEA's actual yearly percentile distribution.</p>
+      </div>
+    </details>
+  </div>
+</section>
+<!--CONTACTS-->
+<!--CONTACTS-->
+<!--CONTACTS-->
+<!--CONTACTS-->
+<!--CONTACTS-->
+<!--CONTACTS-->
+<section id="contact-section">
+  <div class="contact-header">
+    <h2>Contact & Support</h2>
+    <p>Have questions about your rank or noticed an issue with college cut-off data? Get in touch.</p>
+  </div>
+
+  <div class="contact-grid">
+    <!-- Official KEA Help Card -->
+    <div class="contact-card">
+      <div class="card-tag">Official Authority</div>
+      <h3>Karnataka Examinations Authority (KEA)</h3>
+      <p>For official option entry, document verification, and seat allotment disputes:</p>
+      
+      <ul class="contact-info-list">
+        <li>
+          <strong>Helpdesk Phone:</strong> 
+          <span>080 - 23460460</span>
+        </li>
+        <li>
+          <strong>Official Email:</strong> 
+          <span>kea-ka@nic.in</span>
+        </li>
+        <li>
+          <strong>Official Portal:</strong> 
+          <a href="https://cetonline.karnataka.gov.in/kea/" target="_blank" rel="noopener">cetonline.karnataka.gov.in</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Portal Support & Bug Form -->
+    <div class="contact-card">
+      <div class="card-tag">Portal Feedback</div>
+      <h3>Report an Issue / Suggestion</h3>
+      <p>Need help using the rank predictor or spotted an incorrect cut-off rank?</p>
+      <h2>Coming Soon</h2>
+      <h2>Contact Developer</h2>
+      <a href="mailto:core.dev.ops@gmail.com" style="color:whitesmoke">GMAIL</a>
+
+      <!--<form id="contactForm" onsubmit="return false;">
+        <div class="input-group">
+          <label for="contactName">Your Name</label>
+          <input type="text" id="contactName" placeholder="e.g. Rahul Sharma" required>
+        </div>
+
+        <div class="input-group">
+          <label for="contactEmail">Your Email</label>
+          <input type="email" id="contactEmail" placeholder="e.g. rahul@example.com" required>
+        </div>
+
+        <div class="input-group">
+          <label for="contactMessage">Message / Issue Details</label>
+          <textarea id="contactMessage" rows="4" placeholder="Describe the issue or college data correction/Any problem in this website..." required></textarea>
+        </div>
+
+        <button type="submit" class="contact-submit-btn">Send Message</button>
+      </form>
+    </div>
+  </div>-->
+</section>
+<!--STORE-->
+<!--STORE-->
+<!--STORE-->
+<!--STORE-->
+<!--STORE-->
+<!--STORE-->
+<!--STORE-->
+<!--STORE-->
+<section id="store"> 
+    <div class="store-card">
+  <div class="store-card-header">
+    <div class="store-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/>
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <path d="M16 10a4 4 0 0 1-8 0"/>
+      </svg>
+    </div>
+    <span class="coming-soon-badge">Coming Soon</span>
+  </div>
+
+  <div class="store-card-body">
+    <h3>KCET Counseling Prep Store</h3>
+    <p>Get exclusive access to premium college preference lists, expert choice-filling strategy guides, and 1-on-1 option entry roadmaps.</p>
+    <p style="color: #38bdf8"> To add your own books/study materials, vist contacts</p>
+  </div>
+
+  <div class="store-card-footer">
+    <button class="store-btn" disabled>
+      <span>Store Launching Soon</span>
+    </button>
+  </div>
+</div>
+    
+</section>
+<section class="about-section" id="about">
+    <div class="about-container">
+
+        <div class="about-header">
+            <span class="about-label">ABOUT THE PROJECT</span>
+            <h2>Built to make KCET counselling easier.</h2>
+            <p class="about-intro">
+                Choosing a college through KCET can mean going through thousands of
+                ranks, colleges, courses, categories, and cutoffs. This project was
+                built to make that process simpler, faster, and easier to understand.
+            </p>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-story">
+                <h3>Why I built this</h3>
+                <p>
+                    I am a student who went through the KCET admission process myself.
+                    While researching colleges and courses, I found that the information
+                    students need is often spread across different documents and websites.
+                </p>
+
+                <p>
+                    Instead of manually going through all of that information, I decided
+                    to build a tool that brings the important data together in one place.
+                </p>
+
+                <p>
+                    What started as a small KCET rank-prediction project gradually became
+                    a much larger system for exploring colleges, courses, categories,
+                    ranks, and admission possibilities.
+                </p>
+            </div>
+
+            <div class="about-project">
+                <h3>What this project does</h3>
+
+                <div class="about-feature">
+                    <span class="about-feature-icon">📊</span>
+                    <div>
+                        <h4>College & Course Data</h4>
+                        <p>
+                            Organises KCET college, course, category, and cutoff
+                            information into a searchable and easier-to-use format.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-feature">
+                    <span class="about-feature-icon">🎯</span>
+                    <div>
+                        <h4>Rank-Based Exploration</h4>
+                        <p>
+                            Helps students explore possible colleges and courses based
+                            on their KCET rank and admission preferences.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-feature">
+                    <span class="about-feature-icon">⚡</span>
+                    <div>
+                        <h4>Built for Students</h4>
+                        <p>
+                            The goal is to reduce the time spent searching through
+                            complicated admission data and make comparison easier.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="about-builder">
+
+            <div class="about-builder-info">
+                <span class="about-label">BUILT BY</span>
+                <h3>Built by a student, for students.</h3>
+
+                <p>
+                    This project was designed and developed independently while going
+                    through the same admission process it is intended to help with.
+                </p>
+
+                <p>
+                    The project combines web development, data extraction, data
+                    organisation, and problem-solving to turn large amounts of KCET
+                    information into something students can actually use.
+                </p>
+            </div>
+
+            <div class="about-tech">
+                <h3>Technology</h3>
+
+                <div class="about-tech-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>Streamlit</span>
+                    <span>PyMuPDF</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="about-disclaimer">
+            <h3>Important</h3>
+            <p>
+                This website is an independent student project and is not affiliated
+                with KEA or the Government of Karnataka. Admission cutoffs and seat
+                availability can change between rounds, so students should verify
+                important information with official KEA sources before making
+                admission decisions.
+            </p>
+        </div>
+
+    </div>
+</section>
+<section class="articles-section" id="articles">
+    <div class="articles-container">
+
+```
+    <div class="articles-header">
+        <span class="articles-label">BLOGS & ARTICLES</span>
+        <h2>Useful information for your KCET journey.</h2>
+        <p>
+            Simple guides, explanations, and practical information to help
+            students understand KCET counselling, colleges, courses, cutoffs,
+            and admission decisions.
+        </p>
+    </div>
+
+    <div class="articles-grid">
+
+        <article class="article-card article-featured">
+            <div class="article-image">
+                <span class="article-category">KCET GUIDE</span>
+            </div>
+
+            <div class="article-content">
+                <div class="article-meta">
+                    <span>KCET 2026</span>
+                    <span>•</span>
+                    <span>Guide</span>
+                </div>
+
+                <h3>KCET Counselling: What You Need to Know</h3>
+
+                <p>
+                    KCET counselling can be confusing when you are dealing with
+                    ranks, college choices, courses, categories, option entry,
+                    and multiple rounds. This guide explains the process in
+                    simple terms and highlights the decisions that matter most.
+                </p>
+
+                <a href="#" class="article-link">Read Article →</a>
+            </div>
+        </article>
+
+
+        <article class="article-card">
+            <div class="article-image">
+                <span class="article-category">CUTOFFS</span>
+            </div>
+
+            <div class="article-content">
+                <div class="article-meta">
+                    <span>KCET</span>
+                    <span>•</span>
+                    <span>Explained</span>
+                </div>
+
+                <h3>Understanding KCET Cutoff Ranks</h3>
+
+                <p>
+                    A cutoff rank is not simply a fixed number that guarantees
+                    admission. It can change based on the college, course,
+                    category, seat availability, and counselling round.
+                    Understanding these factors can help you make better choices.
+                </p>
+
+                <a href="#" class="article-link">Read Article →</a>
+            </div>
+        </article>
+
+
+        <article class="article-card">
+            <div class="article-image">
+                <span class="article-category">COLLEGES</span>
+            </div>
+
+            <div class="article-content">
+                <div class="article-meta">
+                    <span>Admission</span>
+                    <span>•</span>
+                    <span>Guide</span>
+                </div>
+
+                <h3>How Should You Choose a College?</h3>
+
+                <p>
+                    Your rank is only one part of the decision. Branch,
+                    placements, fees, location, campus environment, academic
+                    opportunities, and your own career goals should also be
+                    considered before selecting a college.
+                </p>
+
+                <!--<a href="#" class="article-link">Read Article →</a>-->
+            </div>
+        </article>
+
+
+        <article class="article-card">
+            <div class="article-image">
+                <span class="article-category">ENGINEERING</span>
+            </div>
+
+            <div class="article-content">
+                <div class="article-meta">
+                    <span>Branches</span>
+                    <span>•</span>
+                    <span>Guide</span>
+                </div>
+
+                <h3>Which Engineering Branch Is Right for You?</h3>
+
+                <p>
+                    Computer Science, AI, ECE, EEE, Mechanical, Civil and other
+                    branches can lead to very different college experiences and
+                    career paths. Learn what each branch generally focuses on
+                    before choosing one based only on its cutoff.
+                </p>
+
+                <!--<a href="#" class="article-link">Read Article →</a>-->
+            </div>
+        </article>
+
+
+        <article class="article-card">
+            <div class="article-image">
+                <span class="article-category">OPTION ENTRY</span>
+            </div>
+
+            <div class="article-content">
+                <div class="article-meta">
+                    <span>Counselling</span>
+                    <span>•</span>
+                    <span>Tips</span>
+                </div>
+
+                <h3>Option Entry: Don't Choose Randomly</h3>
+
+                <p>
+                    Option entry is where your research needs to turn into an
+                    actual preference list. Understanding your priorities and
+                    arranging realistic, ambitious, and safer options can make
+                    the process much more systematic.
+                </p>
+
+               <!-- <a href="#" class="article-link">Read Article →</a> -->
+            </div>
+        </article>
+
+
+        <article class="article-card">
+            <div class="article-image">
+                <span class="article-category">CATEGORIES</span>
+            </div>
+
+            <div class="article-content">
+                <div class="article-meta">
+                    <span>KCET</span>
+                    <span>•</span>
+                    <span>Explained</span>
+                </div>
+
+                <h3>KCET Categories Explained</h3>
+
+                <p>
+                    KCET cutoff data can contain categories such as GM, 1G, 2AG,
+                    2BG, 3AG, and 3BG. Understanding what these categories
+                    represent is important when interpreting previous-year
+                    cutoff data.
+                </p>
+
+               <!-- <a href="#" class="article-link">Read Article →</a>-->
+            </div>
+        </article>
+
+    </div>
+
+    <div class="articles-footer">
+        <!--<a href="#" class="articles-view-all">View All Articles →</a>-->
+    </div>
+
+</div>
+
+</section>
+<section class="privacy-section" id="privacy">
+    <div class="privacy-container">
+
+
+    <div class="privacy-header">
+        <span class="privacy-label">PRIVACY</span>
+        <h2>Your data should stay yours.</h2>
+        <p>
+            This website is designed to provide KCET information and tools
+            while keeping unnecessary collection of personal information
+            to a minimum.
+        </p>
+    </div>
+
+    <div class="privacy-content">
+
+        <div class="privacy-card">
+            <h3>Information We Collect</h3>
+            <p>
+                Most features of this website can be used without creating an
+                account or providing personal information. Information entered
+                into tools such as rank predictors or college searches may be
+                processed to provide the requested results.
+            </p>
+        </div>
+
+        <div class="privacy-card">
+            <h3>Personal Information</h3>
+            <p>
+                We do not ask users to provide unnecessary personal information.
+                If a feature requires information such as a name, email address,
+                or message, it will be collected only for the purpose stated
+                when the information is submitted.
+            </p>
+        </div>
+
+        <div class="privacy-card">
+            <h3>Contact Forms</h3>
+            <p>
+                Information submitted through a contact or feedback form may be
+                stored so that the message can be reviewed and responded to.
+                Please avoid submitting passwords, financial information, or
+                other sensitive personal information.
+            </p>
+        </div>
+
+        <div class="privacy-card">
+            <h3>Cookies & Analytics</h3>
+            <p>
+                The website may use cookies, local storage, analytics services,
+                or similar technologies to understand website usage and improve
+                the experience. These technologies may collect technical
+                information such as browser type, device information, or
+                approximate usage patterns.
+            </p>
+        </div>
+
+        <div class="privacy-card">
+            <h3>Third-Party Services</h3>
+            <p>
+                Some website features may rely on third-party services.
+                Information processed by those services is subject to their
+                respective privacy policies and terms.
+            </p>
+        </div>
+
+        <div class="privacy-card">
+            <h3>KCET & Admission Data</h3>
+            <p>
+                The information provided on this website is intended to help
+                students research colleges, courses, ranks, and admission
+                possibilities. It should not be treated as an official admission
+                decision or a replacement for information published by KEA.
+            </p>
+        </div>
+
+        <div class="privacy-card">
+            <h3>Data Security</h3>
+            <p>
+                Reasonable measures are taken to avoid unnecessary collection
+                and exposure of user information. However, no website or online
+                service can guarantee complete security of information transmitted
+                over the internet.
+            </p>
+        </div>
+
+        <div class="privacy-card">
+            <h3>Changes to This Policy</h3>
+            <p>
+                This privacy policy may be updated when the website introduces
+                new features, services, or data practices. The latest version
+                published on this page will apply to continued use of the website.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="privacy-footer">
+        <p>
+            <strong>Last updated:</strong> August 29, 2026
+        </p>
+        <p>
+            This is an independent student project and is not affiliated with
+            KEA or the Government of Karnataka.
+        </p>
+    </div>
+
+</div>
+
+
+</section>
+
+<section class="terms-section" id="terms">
+    <div class="terms-container">
+
+
+    <div class="terms-header">
+        <span class="terms-label">TERMS & CONDITIONS</span>
+        <h2>Terms of Use</h2>
+        <p>
+            Please read these terms before using the website and its tools.
+            By using this website, you agree to the terms described below.
+        </p>
+    </div>
+
+    <div class="terms-content">
+
+        <div class="terms-card">
+            <h3>1. About This Website</h3>
+            <p>
+                This website is an independent student-built project created
+                to help students explore KCET colleges, courses, cutoff data,
+                and admission-related information.
+            </p>
+            <p>
+                The website is not affiliated with, operated by, or officially
+                endorsed by the Karnataka Examinations Authority (KEA) or the
+                Government of Karnataka.
+            </p>
+        </div>
+
+        <div class="terms-card">
+            <h3>2. Information & Accuracy</h3>
+            <p>
+                Reasonable effort is made to organise and present information
+                accurately. However, cutoff ranks, seat availability, admission
+                rules, fees, courses, and other details may change over time.
+            </p>
+            <p>
+                Information provided by this website should therefore be treated
+                as a reference and not as a guarantee of admission or a final
+                representation of current KEA rules.
+            </p>
+        </div>
+
+        <div class="terms-card">
+            <h3>3. College Predictor & Calculators</h3>
+            <p>
+                Any rank predictor, college predictor, calculator, recommendation,
+                or similar tool provided on this website is intended only for
+                informational and educational purposes.
+            </p>
+            <p>
+                Results are estimates based on the information and methodology
+                available to the project. They do not guarantee that a student
+                will receive a particular college, course, or seat.
+            </p>
+        </div>
+
+        <div class="terms-card">
+            <h3>4. Admission Decisions</h3>
+            <p>
+                Users are responsible for verifying important admission information
+                with official KEA sources before making decisions involving
+                college selection, option entry, fees, documents, or admission.
+            </p>
+            <p>
+                The website should not be used as the sole basis for an admission
+                decision.
+            </p>
+        </div>
+
+        <div class="terms-card">
+            <h3>5. External Links</h3>
+            <p>
+                The website may contain links to external websites and services.
+                These websites are operated independently, and this project is not
+                responsible for their content, availability, security, or privacy
+                practices.
+            </p>
+        </div>
+
+        <div class="terms-card">
+            <h3>6. User Conduct</h3>
+            <p>
+                Users agree not to misuse the website, attempt to disrupt its
+                operation, access restricted systems, scrape data in a way that
+                harms the service, or use the website for unlawful purposes.
+            </p>
+        </div>
+
+        <div class="terms-card">
+            <h3>7. Intellectual Property</h3>
+            <p>
+                The website's original design, code, written content, and other
+                original materials belong to the project creator unless otherwise
+                stated.
+            </p>
+            <p>
+                Third-party names, trademarks, logos, and other materials remain
+                the property of their respective owners.
+            </p>
+        </div>
+
+        <div class="terms-card">
+            <h3>8. Availability</h3>
+            <p>
+                The website is provided on an "as available" basis. Features may
+                be changed, temporarily unavailable, updated, or removed without
+                prior notice.
+            </p>
+        </div>
+
+        <div class="terms-card">
+            <h3>9. Limitation of Liability</h3>
+            <p>
+                The project creator is not responsible for losses, damages,
+                missed opportunities, incorrect choices, or other consequences
+                resulting from reliance on information, predictions, calculations,
+                or recommendations provided by the website.
+            </p>
+        </div>
+
+        <div class="terms-card">
+            <h3>10. Changes to These Terms</h3>
+            <p>
+                These terms may be updated when the website, its features, or its
+                data practices change. Continued use of the website after changes
+                are published constitutes acceptance of the updated terms.
+            </p>
+        </div>
+
+    </div>
+
+    <!--<div class="terms-footer">
+        <p>
+            <strong>Last updated:</strong> August 29, 2026
+        </p>
+
+        <p>
+            This is an independent student project and is not affiliated with
+            KEA or the Government of Karnataka.
+        </p>
+    </div>-->
+
+</div>
+
+
+</section>
+
+
+    </main>
+    <section id="last"><h3 class="imp">THIS WEBSITE WAS CREATED BY VISION STIDIOS <a href="https://sentinelcoredev.github.io/visionstudios_demo" target="_blank">   click here</a></h3></section>
+
+    <!-- FOOTER -->
+    <footer class="copyright-footer">
+        <div class="footer-container">
+            <p>&copy; V-Guide, All rights reserved <span id="currentYear"></span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
