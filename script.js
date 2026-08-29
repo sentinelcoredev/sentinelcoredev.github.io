@@ -110,11 +110,16 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
-    const allNavLinks = document.querySelectorAll(
-        ".vg-nav-link:not(.has-dropdown > .vg-nav-link), .vg-dropdown-item a"
-    );
+    const allNavLinks = document.querySelectorAll(".vg-nav-menu a");
 
     allNavLinks.forEach(link => {
+        const parentItem = link.closest(".vg-nav-item");
+        const isDropdownParentLink = parentItem &&
+            parentItem.classList.contains("has-dropdown") &&
+            link.classList.contains("vg-nav-link");
+
+        if (isDropdownParentLink) return; // handled by dropdownItems logic above
+
         link.addEventListener("click", () => {
             if (window.innerWidth <= 992) {
                 navMenu.classList.remove("mobile-active");
