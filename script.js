@@ -110,4 +110,16 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
+    const allNavLinks = document.querySelectorAll(
+        ".vg-nav-link:not(.has-dropdown > .vg-nav-link), .vg-dropdown-item a"
+    );
+
+    allNavLinks.forEach(link => {
+        link.addEventListener("click", () => {
+            if (window.innerWidth <= 992) {
+                navMenu.classList.remove("mobile-active");
+                if (hamburger) hamburger.setAttribute("aria-expanded", false);
+            }
+        });
+    });
 });
