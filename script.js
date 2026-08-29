@@ -1,4 +1,4 @@
-alert("Press navigation bar again to close it")
+alert("Press navigation bar again to close it");
 function predictKCETRank() {
 
     // Get input values
