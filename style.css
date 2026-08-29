@@ -2775,3 +2775,19 @@ select option:hover {
     padding: 1.25rem;
   }
 }
+/* Option 1: Horizontal scroll wrapper (simplest, preserves table look) */
+.table2 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+@media (max-width: 768px) {
+  .table2-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .table2 {
+    min-width: 600px; /* adjust to your content's natural width */
+  }
+}
